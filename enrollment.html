@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Enrollment System</title>
+    <link rel="stylesheet" href="enrollment.css">
+  </head>
+  <body>
+    <h1>Enrollment System</h1>
+    <form id="enrollment-form">
+      <label for="student-name">Student Name:</label>
+      <br>
+      <input type="text" id="student-name" name="student-name"><br>
+
+      <label for="student-id">Student ID:</label>
+      <br>
+      <input type="text" id="student-id" name="student-id"><br>
+
+      <label for="subject-list">Subjects:</label><br>
+      <input type="checkbox" id="PF101" name="subject" value="PF101">
+      <label for="PF101">HUMSS</label><br>
+      <input type="checkbox" id="CC106" name="subject" value="CC106">
+      <label for="CC106">ABM</label><br>
+      <input type="checkbox" id="NET101" name="subject" value="NET101">
+      <label for="NET101">STEM</label><br>
+      <input type="checkbox" id="SIA101" name="subject" value="SIA101">
+      <label for="SIA101">TVL</label><br>
+      <input type="checkbox" id="IM102" name="subject" value="IM102">
+      <label for="IM102">AFA</label><br>
+
+      <input type="submit" value="Enroll">
+      <a href="index.html" class="button">Cancel</a>
+    </form>
+
+    <script src="enrollment.js"></script>
+    <script src="view.js"></script>
+  </body>
+</html>

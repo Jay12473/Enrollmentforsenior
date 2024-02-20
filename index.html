@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="view.css">
+  <style>
+    body {
+      opacity: 0;
+      animation: fadeIn ease-in-out 1.5s forwards;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+  <title>Student List</title>
+</head>
+<body>
+  <h1>Student List</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Student Name</th>
+        <th>Student ID</th>
+        <th>Subjects</th>
+      </tr>
+    </thead>
+    <tbody id="student-list">
+    </tbody>
+  </table>
+
+  <a href="enrollment.html" class="button">Add Students</a>
+
+  <!-- "Made By Jay" added here -->
+  <p style="text-align: center; margin-top: 20px;">Made By Jay</p>
+
+  <script src="enrollment.js"></script>
+  <script src="view.js"></script>
+</body>
+</html>
